@@ -1,0 +1,30 @@
+{
+    "expo": {
+        "name": "Bharat Pashudhan App",
+        "slug": "bharat-pashudhan-app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "light",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.bharatpashudhanapp.bpa"
+        },
+        "android": {
+            "package": "com.bharatpashudhanapp.bpa",
+            "permissions": [
+                "CAMERA",
+                "WRITE_EXTERNAL_STORAGE",
+                "READ_EXTERNAL_STORAGE",
+                "ACCESS_FINE_LOCATION",
+                "ACCESS_COARSE_LOCATION"
+            ]
+        },
+        "plugins": [
+            "expo-font",
+            "expo-asset"
+        ]
+    }
+}
